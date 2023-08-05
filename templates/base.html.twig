@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo App</title>
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
+</head>
+<body>
+{% block content %}
+    <h1>HELLO FROM BASE</h1>
+{% endblock %}
+
+{% block js %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
+</body>
+</html>
