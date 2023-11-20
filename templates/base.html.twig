@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <title>Todo App</title>
     {% block stylesheets %}
-        {{ encore_entry_link_tags('app') }}
+        {{ encore_entry_link_tags('style') }}
     {% endblock %}
 </head>
 <body>
-{% block react %}
-{% endblock %}
-
+<div id="root">
+</div>
 {% block js %}
     {{ encore_entry_script_tags('app') }}
 {% endblock %}
