@@ -1,0 +1,31 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__text {
+    width: 50%;
+  }
+
+  &__text-subtitle {
+    color: $primaryColor;
+  }
+
+  &__text-title {
+
+  }
+
+  &__text-description {
+
+  }
+
+  &__img {
+    width: 50%;
+    height: 100%;
+    display: block;
+  }
+}

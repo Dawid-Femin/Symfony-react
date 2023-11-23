@@ -1,9 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
-@import "./pages/homepage";
-
+@import "./helpers/reset";
+@import "./helpers/fonts";
 @import "./helpers/wrapper";
+@import "./helpers/variable";
 
 @import "./elements/table";
 @import "./elements/box";
-
 @import "./elements/nav";
+@import "./elements/hero";
+@import "./elements/card";
+@import "./elements/info";
+
+@import "./pages/homepage";
